@@ -1,25 +1,22 @@
 body {
-    background-image: url('../img/background.jpg');
+    margin: 0;
+    padding: 0;
+    background: #a4bbfc url('../img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 div {
-    ali
     height:50%;
     width:50%;
     text-align: center;
     font-family: 'Sedgwick Ave', cursive;
     background-color: rgba(255,255,255,0.2);
     padding:60px 60px 40px 40px;
-    margin: auto;
-    margin-top: 10%;
+    margin: 10% auto;
 }
 p#title{
-    color:rgba(255, 50,50, 1);
+    color:rgba(255,50,50,1);
     font-size: 50px;
     font-weight: bold;
-
-}
-p#link{
-    color:rgba(255, 0, 0, 0.2);
 }
