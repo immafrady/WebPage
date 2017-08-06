@@ -6,17 +6,22 @@ body {
     background-repeat: no-repeat;
 
 }
-div {
-    height:50%;
-    width:50%;
+.midframe {
     text-align: center;
     font-family: 'Sedgwick Ave', cursive;
-    background-color: rgba(255,255,255,0.2);
-    padding:60px 60px 40px 40px;
-    margin: 10% auto;
+    background-color: white;
+    background-color: rgba(255,255,255,0.4);
+    padding:60px 40px 40px 40px;
+    margin: 10% 25%;
 }
-p#title{
-    color:rgba(255,50,50,1);
+.warning{
+    color:rgb(255,50,50);
     font-size: 50px;
     font-weight: bold;
+}
+.fw{
+    background: white;
+    background: rgba(255, 255, 255, 0.5);
+    padding:20px;
+    margin:0 28%;
 }
