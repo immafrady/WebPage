@@ -4,9 +4,43 @@ body {
     background: #a4bbfc url('../img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
+    overflow: hidden;
 }
-.midframe {
+nav,footer{
+    text-align: center;
+    background: grey;
+    opacity: 0.2;
+}
+img{
+    width: 200px;
+}
+#leftimg{
+    transform: translate(100px,0px);
+}
+#rightimg{
+    transform: translate(-100px,0px);
+}
+#leftframe{
+    /*border:solid white;*/
+    border-radius: 40px;
+    /*float: left;*/
+    position: absolute;
+    left: 0;
+    /*top: 100px;*/
+    overflow:hidden;
+    transform: translate(-100px,60px);
+}
+#rightframe{
+    /*border:solid white;*/
+    border-radius: 40px;
+    /*float: left;*/
+    position: absolute;
+    right: 0;
+    /*top: 100px;*/
+    overflow: hidden;
+    transform: translate(100px,60px);
+}
+#midframe {
     text-align: center;
     font-family: 'Sedgwick Ave', cursive;
     background-color: white;
