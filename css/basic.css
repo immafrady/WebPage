@@ -1,15 +1,25 @@
-body {
+body,html {
+    height:100%;
     margin: 0;
     padding: 0;
     background: #a4bbfc url('../img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    /*overflow:scroll;*/
+    overflow-x: hidden;
+    text-align: center;
 }
 nav,footer{
     text-align: center;
+    color: white;
     background: grey;
-    opacity: 0.2;
+    opacity: 0.5;
+    position:fixed;
+    width: 100%;
+}
+footer{
+    bottom:0;
+
 }
 img{
     width: 200px;
@@ -20,7 +30,7 @@ img{
 #rightimg{
     transform: translate(-100px,0px);
 }
-#leftframe{
+.leftframe{
     /*border:solid white;*/
     border-radius: 40px;
     /*float: left;*/
@@ -30,7 +40,7 @@ img{
     overflow:hidden;
     transform: translate(-100px,60px);
 }
-#rightframe{
+.rightframe{
     /*border:solid white;*/
     border-radius: 40px;
     /*float: left;*/
@@ -40,15 +50,18 @@ img{
     overflow: hidden;
     transform: translate(100px,60px);
 }
-#midframe {
-    text-align: center;
-    font-family: 'Sedgwick Ave', cursive;
+.midframe {
+    /*text-align: center;*/
+font-family: 'Sedgwick Ave Display', cursive;
     background-color: white;
     background-color: rgba(255,255,255,0.4);
-    padding:60px 40px 40px 40px;
-    margin: 10% 25%;
+    padding:20px 40px 200px 40px;
+    margin: 20px 25%;
 }
 .warning{
+    margin: 30px;
+}
+.title{
     color:rgb(255,50,50);
     font-size: 50px;
     font-weight: bold;

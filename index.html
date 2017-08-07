@@ -4,17 +4,41 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <link rel="stylesheet" href="css/basic.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+    <link rel="stylesheet" href="css/bmi.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed|Sedgwick+Ave+Display" rel="stylesheet">
+    <script src="js/bmi.js" type="text/javascript"></script>
     <title>Frady的小站</title>
 </head>
 
 <body>
-    <nav>导航栏</nav>
-    <div id="leftframe"><img src="img/sideimage.jpg" alt="清纯的我" title="你的想法很危险" id="leftimg"/></div>
-    <div id="rightframe"><img src="img/sideimage-reversed.jpg" alt="清纯的我" title="表酱紫" id="rightimg"/></div>
-    <div id="midframe">
-        <p class="warning">Constructing</p>
-        <div class="fw">FW: <a href="https://i.pximg.net/img-original/img/2016/03/08/23/20/20/55700678_p0.jpg" title="尊重原作者作品" target="_blank">background image link</a></div>
+    <nav>摸头</nav>
+    <div class="leftframe">
+        <img src="img/sideimage.jpg" alt="清纯的我" title="你的想法很危险" id="leftimg"/></div>
+    <div class="rightframe">
+        <img src="img/sideimage-reversed.jpg" alt="清纯的我" title="表酱紫" id="rightimg"/></div>
+    <div class="midframe">
+        <div class="warning">
+            <p class="title">Constructing</p>
+            <div class="fw">FW: <a href="https://i.pximg.net/img-original/img/2016/03/08/23/20/20/55700678_p0.jpg" title="尊重原作者作品" target="_blank">background image link</a></div>
+            <hr>
+        </div>
+        <div class="bmi">
+            <p class="subtitle">~BMI Caculator~</p>
+            <div>
+                <form class="datainput">
+                    <input type="number" placeholder="身高(m)" id="height"/><br>
+                    <input type="number" placeholder="体重(kg)" id="weight"/>
+                </form><br>
+                <button type="button" name="button" id="submit">提交数据</button>
+            </div>
+            <br><br>
+            <div class="results">
+                <p id="CNresult">查询结果</p>
+                <p id="JPresult">結果発表</p>
+                <p id="ENresult">Your Result</p>
+            </div>
+        </div>
+        </div>
     </div>
     <footer>抠脚</footer>
 </body>
