@@ -11,15 +11,17 @@ btn.onclick = function () {
         w = document.getElementById('weight').value,
         h = hm / 100,
         bmi = w / (h * h);
-    document.getElementById('result').innerHTML = parseInt(bmi);
+
     // 加入switch语句
     switch (isNaN(bmi)) {
-        case true:
-            document.getElementById('CNresult').innerHTML = '认真写，别逗我';
-            document.getElementById('JPresult').innerHTML = '冗談じゃない！';
-            document.getElementById('ENresult').innerHTML = 'What are you hidding?';
-            break;
-        default:
+    case true:
+        document.getElementById('result').innerHTML = '##';
+        document.getElementById('CNresult').innerHTML = '认真写，别逗我';
+        document.getElementById('JPresult').innerHTML = '冗談じゃない！';
+        document.getElementById('ENresult').innerHTML = 'What are you hidding?';
+        break;
+    default:
+        document.getElementById('result').innerHTML = parseInt(bmi);
         if (bmi <= 18.5) {
             document.getElementById('CNresult').innerHTML = '食之无味，弃之可惜';
             document.getElementById('JPresult').innerHTML = 'いっぱい食べてもいいぜ';
@@ -38,5 +40,4 @@ btn.onclick = function () {
             document.getElementById('ENresult').innerHTML = 'You taste so good';
         }
     }
-
 }

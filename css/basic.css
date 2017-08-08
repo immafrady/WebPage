@@ -29,6 +29,9 @@ img{
 #rightimg{
     transform: translate(-100px,0px);
 }
+#date{
+    font-size: 0.6em;
+}
 .leftframe{
     border-radius: 40px;
     position: absolute;
