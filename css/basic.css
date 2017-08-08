@@ -44,7 +44,7 @@ img{
     transform: translate(100px,60px);
 }
 .midframe {
-font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
     background-color: white;
     background-color: rgba(255,255,255,0.4);
     padding:20px 40px 40px 40px;
