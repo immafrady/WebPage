@@ -13,9 +13,11 @@
 <body>
     <nav>摸头</nav>
     <div class="leftframe">
-        <img src="img/sideimage.jpg" alt="清纯的我" title="你的想法很危险" id="leftimg"/></div>
+        <img src="img/sideimage.jpg" alt="清纯的我" title="你的想法很危险" id="leftimg"/>
+    </div>
     <div class="rightframe">
-        <img src="img/sideimage-reversed.jpg" alt="清纯的你" title="表酱紫" id="rightimg"/></div>
+        <img src="img/sideimage-reversed.jpg" alt="清纯的你" title="表酱紫" id="rightimg"/>
+    </div>
     <div class="midframe">
         <div class="warning">
             <p class="title">Constructing</p>
@@ -24,24 +26,27 @@
         </div>
         <div class="bmi">
             <p class="subtitle">~BMI Caculator~</p>
-            <table>
-                <tr>
-                    <td>身高：</td>
-                    <td><input type="text" placeholder="183" id="height" name="bmi"/></td>
-                    <td>cm</td>
-                </tr>
-                <tr>
-                    <td>体重：</td>
-                    <td><input type="text" placeholder="70" id="weight" name="bmi"/></td>
-                    <td>kg</td>
-                </tr>
-            </table>
-            <button type="button" id="submit">提交数据</button>
-            <br><br>
+            <form>
+                <table>
+                    <tr>
+                        <td>身高：</td>
+                        <td><input type="text" placeholder="183" id="height" name="bmi"/></td>
+                        <td>cm</td>
+                    </tr>
+                    <tr>
+                        <td>体重：</td>
+                        <td><input type="text" placeholder="70" id="weight" name="bmi"/></td>
+                        <td>kg</td>
+                    </tr>
+                </table>
+                <input type="button" id="submit" value= "Submit" />
+                <input type="reset" name="bmi" value= 'Clear' />
+            </form>
+            <br>
             <table class="result">
                 <tr>
                     <td>你的BMI指数是</td>
-                    <td id="result"></td>
+                    <td id="result">##</td>
                 </tr>
             </table>
             <div class="results">
@@ -49,9 +54,9 @@
                 <p id="JPresult">結果発表</p>
                 <p id="ENresult">Your Result</p>
             </div>
+            <br><br>
             <p id="date"></p>
         </div>
-
     </div>
     <footer>抠脚</footer>
     <script src="js/bmi.js"></script>
