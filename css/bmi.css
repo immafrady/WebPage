@@ -16,7 +16,8 @@
     font-size: 2em;
     margin-top: 0;
 }
-.result{
+.rs{
+    margin-top: 40px;
     font-size: 1.2em;
     font-weight: bold;
 }
