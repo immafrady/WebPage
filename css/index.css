@@ -13,7 +13,10 @@ nav,footer{
     opacity: 0.5;
     position:fixed;
     width: 100%;
-    margin: 0;
+    left:0;
+}
+nav{
+    top:0;
 }
 footer{
     bottom:0;
