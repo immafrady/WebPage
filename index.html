@@ -3,58 +3,53 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <link rel="stylesheet" href="css/basic.css" type="text/css">
-    <link rel="stylesheet" href="css/bmi.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed|Sedgwick+Ave+Display" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/bmi.css" type="text/css"> -->
+    <!-- YUI CSS reset -->
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Bad+Script|Coming+Soon|Ek+Mukta:200,300,400,500,600,700,800|Frijole|Permanent+Marker|Saira+Extra+Condensed" rel="stylesheet">
     <title>Frady的小站</title>
 </head>
 
 <body>
     <nav>摸头</nav>
-    <div class="leftframe">
-        <img src="img/sideimage.jpg" alt="清纯的我" title="你的想法很危险" id="leftimg"/>
+
+    <!-- 边栏 -->
+    <div class="left-column">
+        <img src="img/sideimage.jpg" alt="清纯的我" title="你的想法很危险" class="leftimg"/>
     </div>
-    <div class="rightframe">
-        <img src="img/sideimage-reversed.jpg" alt="清纯的你" title="表酱紫" id="rightimg"/>
+    <div class="right-column">
+        <img src="img/sideimage-reversed.jpg" alt="清纯的你" title="表酱紫" class="rightimg"/>
     </div>
-    <div class="midframe">
-        <div class="warning">
-            <p class="title">Constructing</p>
-            <div class="fw">FW: <a href="https://i.pximg.net/img-original/img/2016/03/08/23/20/20/55700678_p0.jpg" title="尊重原作者作品" target="_blank">background image link</a></div>
-            <hr>
+
+    <!-- 中间 -->
+    <div class="mid-column">
+
+        <!-- 标题 -->
+        <p class="title">Welcome</p>
+        <hr>
+
+        <!-- 自我介绍 -->
+        <div>
+            <p>Hi! My name is Frady.</p>
+            <p>Recently start to learn Web Design</p>
+            <p>Here is where I practise.</p>
         </div>
-        <div class="bmi">
-            <p class="subtitle">~BMI Caculator~</p>
-            <form>
-                <table>
-                    <tr>
-                        <td>身高：</td>
-                        <td><input type="text" placeholder="183" id="height" name="bmi"/></td>
-                        <td>cm</td>
-                    </tr>
-                    <tr>
-                        <td>体重：</td>
-                        <td><input type="text" placeholder="70" id="weight" name="bmi"/></td>
-                        <td>kg</td>
-                    </tr>
-                </table>
-                <input type="button" id="submit" value= "Submit" />
-                <input type="reset" name="bmi" value= 'Clear' />
-            </form>
-            <table class="rs">
-                <tr>
-                    <td>你的BMI指数是</td>
-                    <td id="result">##</td>
-                </tr>
-            </table>
-            <div class="results">
-                <p id="CNresult">结果在此</p>
-                <p id="JPresult">結果発表</p>
-                <p id="ENresult">Your Result</p>
-            </div>
-            <p id="date"></p>
-        </div>
+
+        <!-- 按钮 -->
+        <ul class="navigation">
+            <li class="img button"><a href="https://i.pximg.net/img-original/img/2016/03/08/23/20/20/55700678_p0.jpg" title="尊重原作者作品" target="_blank" >Background Image</a></li>
+            <li class="bmi button activated"><a href="html/bmi.html" title="有好东西~" >BMI Caculator</a>
+            </li>
+            <li class="button disable">
+                <a href="#">Coming soon</a>
+            </li>
+            <li class="button disable">
+                <a href="#">Coming soon</a>
+            </li>
+        </ul>
+        <div class="cl"></div>
     </div>
     <footer>抠脚</footer>
     <script src="js/bmi.js"></script>

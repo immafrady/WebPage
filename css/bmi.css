@@ -1,29 +1,82 @@
-.bmi{
+.center-column{
+    width: 960px;
+    margin: 50px auto;
     background-color: white;
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px 0;
     font-family: 'Saira Extra Condensed', sans-serif;
-}
-.results{
-    font-size: 1.25em;
-    color: white;
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.8);
-    margin: 0 50px;
-    padding: 10px;
+    padding-bottom: 50px;
 }
 .subtitle{
-    font-size: 2em;
-    margin-top: 0;
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 40px;
 }
 .rs{
     margin-top: 40px;
+    margin-bottom: 40px;
+    /*margin:40px 0;    为什么一用这个就显示错误*/
     font-size: 1.2em;
     font-weight: bold;
+}
+.results{
+    font-size: 1.25em;
+    line-height: 2em;
+    color: white;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0 20%;
+    padding: 10px;
+}
+.btn{
+    margin-top: 20px;
 }
 table{
     margin: 0 auto;
 }
 input{
     width: 100px;
+}
+hr{
+    width: 800px;
+}
+div form {
+    margin-top: 50px;
+}
+/*返回主页*/
+.return{
+    margin-top: 50px;
+}
+.return a{
+    font-family: 'Ek Mukta', sans-serif;
+    padding: 4px 8px 4px 25px;
+    background: url(../img/icon_sprite.png);
+    background-repeat: no-repeat ;
+    background-position:5px -95px;
+    text-decoration: none;
+}
+.return a:link,a:visited {
+    background-color: #e0e0e0;
+    color: #353535;
+    border-bottom:2px solid #b2b2b2;
+    border-right:2px solid #b2b2b2;
+}
+.return a:hover{
+    background-color: #d5d5d5;
+    color: #6f6f6f;
+    border-bottom:2px solid #b2b2b2;
+    border-right:2px solid #b2b2b2;
+}
+.return a:active{
+    background-color: #d5d5d5;
+    color: #353535;
+    border: none;
+    border-top:2px solid #b2b2b2;
+    border-left:2px solid #b2b2b2;
+}
+/*时间*/
+footer{
+    font-size: 0.6em;
+    position: absolute;
+    width: 960px;
+    bottom: 0;
 }

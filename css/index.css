@@ -1,0 +1,128 @@
+body,html {
+    height:100%;
+    background: #a4bbfc url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    text-align: center;
+}
+nav,footer{
+    text-align: center;
+    color: white;
+    background: grey;
+    opacity: 0.5;
+    position:fixed;
+    width: 100%;
+}
+footer{
+    bottom:0;
+}
+/*图片*/
+img{
+    width: 200px;
+}
+hr{
+    width:800px;
+}
+.leftimg{
+    transform: translate(100px,0px);
+}
+.rightimg{
+    transform: translate(-100px,0px);
+}
+/*主要框架*/
+.left-column{
+    border-radius: 40px;
+    position: fixed;
+    left: 0;
+    overflow:hidden;
+    transform: translate(-100px,60px);
+}
+.right-column{
+    border-radius: 40px;
+    position: fixed;
+    right: 0;
+    overflow: hidden;
+    transform: translate(100px,60px);
+}
+.mid-column {
+    background-color: white;
+    background-color: rgba(255,255,255,0.4);
+    width: 960px;
+    margin-left: -480px;
+    position: fixed;
+    left: 50%;
+    top: 50px;
+}
+/*标题*/
+
+.title{
+    font-family: 'Frijole', cursive;
+    color:rgb(255,50,50);
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/*自我介绍*/
+.mid-column div p{
+    font-family: 'Bad Script', cursive;
+    font-size: 1.5em;
+    background-color: rgba(255, 200, 200, 0.8);
+    margin:0 90px;
+}
+/*按钮*/
+.navigation {
+    margin: 70px auto;
+    padding:0 0 50px 128px;
+    font-family: 'Ek Mukta', sans-serif;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+/*按钮样式*/
+.button{
+    float:left;
+    padding:0 4px;
+    margin-left: 16px;
+}
+a{
+    display: block;
+    width: 100%;
+    padding-left: 16px;
+    background-image: url(../img/icon_sprite.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+/*有效的按钮*/
+.button a:link,a:visited{
+    background-color: #e0e0e0;
+    color: #353535;
+    border-bottom:2px solid #b2b2b2;
+    border-right:2px solid #b2b2b2;
+}
+.button a:hover{
+    background-color: #d5d5d5;
+    color: #6f6f6f;
+    border-bottom:2px solid #b2b2b2;
+    border-right:2px solid #b2b2b2;
+}
+.button a:active{
+    background-color: #d5d5d5;
+    color: #353535;
+    border: none;
+    border-top:2px solid #b2b2b2;
+    border-left:2px solid #b2b2b2;
+}
+/*class=img*/
+.img a{
+    background-position: 4px 6px;
+}
+/*class=bmi*/
+.bmi a{
+    background-position: 4px -46px;
+}
+/*失效的两个按钮*/
+.disable a{
+    background-color: #bbbbbb;
+    color: #777;
+    background-position: 4px -150px;
+}

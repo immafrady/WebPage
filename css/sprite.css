@@ -1,0 +1,12 @@
+.sprite { background: url('sprite.png') no-repeat top left; width: 16px; height: 16px;  }
+.sprite.238 { background-position: 0 0; }
+.sprite.238- { background-position: 0 -26px; }
+.sprite.49 { background-position: 0 -52px; }
+.sprite.49- { background-position: 0 -78px; }
+.sprite.homepage_fill { background-position: 0 -104px; }
+.sprite.homepage { background-position: 0 -130px; }
+.sprite.242 { background-position: 0 -156px; }
+.sprite.searchfill { background-position: 0 -182px; }
+.sprite.search { background-position: 0 -208px; } 
+.sprite.trash_fill { background-position: 0 -234px; }
+.sprite.trash { background-position: 0 -260px; }
