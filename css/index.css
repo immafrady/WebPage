@@ -13,6 +13,7 @@ nav,footer{
     opacity: 0.5;
     position:fixed;
     width: 100%;
+    margin: 0;
 }
 footer{
     bottom:0;
@@ -23,6 +24,9 @@ img{
 }
 hr{
     width:800px;
+}
+ul{
+    list-style: none;
 }
 .leftimg{
     transform: translate(100px,0px);
@@ -67,6 +71,7 @@ hr{
 .mid-column div p{
     font-family: 'Bad Script', cursive;
     font-size: 1.5em;
+    background-color: rgb(255, 200, 200);
     background-color: rgba(255, 200, 200, 0.8);
     margin:0 90px;
 }

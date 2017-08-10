@@ -76,7 +76,7 @@ div form {
 /*时间*/
 footer{
     font-size: 0.6em;
-    position: absolute;
+    position: fixed;
     width: 960px;
     bottom: 0;
 }
