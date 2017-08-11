@@ -129,8 +129,13 @@ a{
     background-position: 4px -46px;
 }
 /*失效的两个按钮*/
-.disable a{
-    background-color: #bbbbbb;
-    color: #777;
+.unbtn{
+    float:left;
+    padding:0 4px;
+    margin-left: 16px;
+}
+.disabled {
+    background-color: #bbbbbb !important;
+    color: #777 !important;
     background-position: 4px -150px;
 }
