@@ -32,25 +32,27 @@ ul{
     list-style: none;
 }
 .leftimg{
-    transform: translate(100px,0px);
+    /* transform: translate(100px,0px); */
 }
 .rightimg{
-    transform: translate(-100px,0px);
+    /* transform: translate(-100px,0px); */
 }
 /*主要框架*/
 .left-column{
     border-radius: 40px;
     position: fixed;
-    left: 0;
+    top: 60px;
+    left: -190px;
     overflow:hidden;
-    transform: translate(-100px,60px);
+    /* transform: translate(-100px,60px); */
 }
 .right-column{
     border-radius: 40px;
     position: fixed;
-    right: 0;
+    top: 60px;
+    right: -190px;
     overflow: hidden;
-    transform: translate(100px,60px);
+    /* transform: translate(100px,60px); */
 }
 .mid-column {
     background-color: white;
