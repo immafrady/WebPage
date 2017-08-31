@@ -21,7 +21,7 @@ btn.onclick = function () {
         document.getElementById('ENresult').innerHTML = 'What are you hidding?';
         break;
     default:
-        document.getElementById('score').innerHTML = parseInt(bmi);
+        document.getElementById('score').innerHTML = bmi.toFixed(2);
         if (bmi <= 18.5) {
             document.getElementById('CNresult').innerHTML = '食之无味，弃之可惜';
             document.getElementById('JPresult').innerHTML = 'いっぱい食べてもいいぜ';

@@ -1,0 +1,63 @@
+main{
+    margin: 40px auto;
+    background-color: rgba(255,255,255,0.5) ;
+    width: 1200px;
+    position: relative;
+}
+.clearfix:after{
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  }
+
+.title1{
+    text-align: center;
+}
+img{
+    width: 150px;
+}
+.img-frame{
+    position: relative;
+    border: 1px solid black;
+    left: 50%;
+    margin: 20px 0px 20px -250px;
+    width: 500px;
+    height: 354px;
+    overflow: hidden;
+}
+/* 清除浮动 */
+.img-frame
+
+
+/*图片*/
+li {
+    list-style: none;
+    position: absolute;
+    top:0;
+}
+.img1{
+    left:0px;
+}
+.img2{
+    left:62.5px;
+}
+.img3{
+    left:125px;
+}
+.img4{
+    left:187.5px;
+}
+.img5{
+    left:250px;
+}
+.img6{
+    left:312.5px;
+}
+.img7{
+    left:375px;
+}
+.img8{
+    left: 437.5px;
+}
