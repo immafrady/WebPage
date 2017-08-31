@@ -1,4 +1,4 @@
-body,html {
+body {
     height:100%;
     background: #a4bbfc url(../img/background.jpg);
     background-size: cover;
@@ -31,12 +31,7 @@ hr{
 ul{
     list-style: none;
 }
-.leftimg{
-    /* transform: translate(100px,0px); */
-}
-.rightimg{
-    /* transform: translate(-100px,0px); */
-}
+
 /*主要框架*/
 .left-column{
     border-radius: 40px;
@@ -44,7 +39,6 @@ ul{
     top: 60px;
     left: -190px;
     overflow:hidden;
-    /* transform: translate(-100px,60px); */
 }
 .right-column{
     border-radius: 40px;
@@ -52,7 +46,6 @@ ul{
     top: 60px;
     right: -190px;
     overflow: hidden;
-    /* transform: translate(100px,60px); */
 }
 .mid-column {
     background-color: white;
